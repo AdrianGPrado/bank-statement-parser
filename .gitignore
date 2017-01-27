@@ -20,13 +20,15 @@ lib64/
 parts/
 sdist/
 var/
+wheels/
 *.egg-info/
 .installed.cfg
 *.egg
 
 # PyInstaller
 #  Usually these files are written by a python script from a template
-#  before PyInstaller builds the exe, so as to inject date/other infos into it.
+#  before PyInstaller builds the exe, so as to inject date/other infos into
+it.
 *.manifest
 *.spec
 
@@ -66,7 +68,7 @@ docs/_build/
 # PyBuilder
 target/
 
-# IPython Notebook
+# Jupyter Notebook
 .ipynb_checkpoints
 
 # pyenv
@@ -74,11 +76,6 @@ target/
 
 # celery beat schedule file
 celerybeat-schedule
-
-# dotenv
-.env
-
-# virtualenv
 venv/
 ENV/
 
@@ -87,3 +84,6 @@ ENV/
 
 # Rope project settings
 .ropeproject
+
+# PyCharm
+.idea/
