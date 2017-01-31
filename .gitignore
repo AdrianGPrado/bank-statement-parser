@@ -87,3 +87,9 @@ ENV/
 
 # PyCharm
 .idea/
+
+# csv files are output
+*.csv
+
+# txt files are input
+*.txt
